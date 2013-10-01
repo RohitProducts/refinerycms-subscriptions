@@ -1,0 +1,29 @@
+zh-CN:
+  refinery:
+    plugins:
+      subscriptions:
+        title: Subscriptions
+    subscriptions:
+      admin:
+        subscriptions:
+          actions:
+            create_new: 建立新的 Subscription
+            reorder: 对 Subscriptions 重新排序
+            reorder_done: 对 Subscriptions 的重新排序结束
+          records:
+            title: Subscriptions
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Subscriptions yet. Click "Add New Subscription" to add your first subscription.
+            no_items_yet: 目前没有 Subscriptions . 点击 "Add New Subscription" 创建一个subscription.
+          subscription:
+            view_live_html: 查看 subscription 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 subscription
+            delete: 永久删除 subscription
+      subscriptions:
+        show:
+          other: 其他 Subscriptions
+  activerecord:
+    attributes:
+      'refinery/subscriptions/subscription':
+        email: Email
