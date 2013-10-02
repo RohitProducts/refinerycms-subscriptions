@@ -6,9 +6,7 @@ module Refinery
         @subscription = subscription
         mail  :subject => Refinery::Subscriptions::Setting.notification_subject,
               :to => Refinery::Subscriptions::Setting.notification_recipients,
-              :from => ::I18n.t('from_name',
-                                :scope => 'refinery.subscriptions.config',
-                                :site_name => Refinery::Core.site_name) + " <subscriptions@#{request.domain}>",
+              :from => "\"#{Refinery::Core.site_name}\" <no-reply@#{request.domain}>",
               :reply_to => @subscription.email
       end
     end
