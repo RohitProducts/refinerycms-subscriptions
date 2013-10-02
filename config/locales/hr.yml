@@ -1,0 +1,12 @@
+en:
+  refinery:
+    subscriptions:
+      config:
+        from_name: "[%{site_name}]"
+      subscriptions:
+        new:
+          send: 'Prijavi se'
+  activerecord:
+    attributes:
+      'refinery/subscriptions/subscription':
+        email: Email
