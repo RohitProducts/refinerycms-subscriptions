@@ -4,7 +4,7 @@ module Refinery
 
       def notification(subscription, request)
         @subscription = subscription
-        mail  :subject => Refinery::Subscriptions::Setting.notification_subject
+        mail  :subject => Refinery::Subscriptions::Setting.notification_subject,
               :to => Refinery::Subscriptions::Setting.notification_recipients,
               :from => ::I18n.t('from_name',
                                 :scope => 'refinery.subscriptions.config',
