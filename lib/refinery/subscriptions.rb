@@ -1,4 +1,5 @@
 require 'refinerycms-core'
+require 'refinerycms-settings'
 
 module Refinery
   autoload :SubscriptionsGenerator, 'generators/refinery/subscriptions_generator'
