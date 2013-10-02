@@ -1,0 +1,16 @@
+<% content_for :body do %>
+  <div class='subscriptions'>
+    <%= form_for [refinery, :subscriptions, @subscription] do |f| %>
+
+      <div class="field">
+        <%= f.label :email %>
+        <%= f.email_field :email %>
+      </div>
+
+      <div class="actions">
+        <%= f.submit t('.send') %>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+<%= render "/refinery/content_page" %>

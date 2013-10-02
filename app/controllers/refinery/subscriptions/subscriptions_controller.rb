@@ -19,6 +19,10 @@ module Refinery
         present(@page)
       end
 
+      def new
+        @subscription = ::Refinery::Subscriptions::Subscription.new
+      end
+
       def create
         @subscription = ::Refinery::Subscriptions::Subscription.new(params[:subscription])
 
@@ -26,7 +30,7 @@ module Refinery
           begin
             ::Refinery::Subscriptions::SubscriptionMailer.notification(@subscription, request).deliver
           rescue
-            logger.warn "There was an error delivering an inquiry notification.\n#{$!}\n"
+            logger.warn "There was an error delivering an subscription notification.\n#{$!}\n"
           end
         else
           render :action => 'new'

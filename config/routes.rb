@@ -2,7 +2,7 @@ Refinery::Core::Engine.routes.append do
 
   # Frontend routes
   namespace :subscriptions do
-    resources :subscriptions, :path => '', :only => :create
+    resources :subscriptions, :path => '', :only => [:new, :create]
   end
 
   # Admin routes
