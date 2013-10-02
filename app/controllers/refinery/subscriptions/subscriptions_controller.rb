@@ -18,6 +18,8 @@ module Refinery
           rescue
             logger.warn "There was an error delivering an subscription notification.\n#{$!}\n"
           end
+
+          redirect_to refinery.thank_you_subscriptions_subscriptions_path
         else
           render :action => 'new'
         end
