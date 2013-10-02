@@ -22,7 +22,7 @@ module Refinery
       def create
         @subscription = ::Refinery::Subscriptions::Subscription.new(params[:subscription])
 
-        if @subscription.save?
+        if @subscription.save
           begin
             ::Refinery::Subscriptions::SubscriptionMailer.notification(@subscription, request).deliver
           rescue
