@@ -2,7 +2,6 @@ module Refinery
   module Subscriptions
     class SubscriptionsController < ::ApplicationController
 
-      before_filter :find_all_subscriptions
       before_filter :find_page, :only => [:new, :create]
 
       def new
