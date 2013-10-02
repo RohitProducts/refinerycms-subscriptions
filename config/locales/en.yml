@@ -5,7 +5,7 @@ en:
         title: Subscriptions
     subscriptions:
       config:
-        from_name: "[%{site_name}]"
+        from_name: "%{site_name}"
       admin:
         subscriptions:
           actions:

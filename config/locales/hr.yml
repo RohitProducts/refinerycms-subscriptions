@@ -2,7 +2,7 @@ en:
   refinery:
     subscriptions:
       config:
-        from_name: "[%{site_name}]"
+        from_name: "%{site_name}"
       subscriptions:
         new:
           send: 'Prijavi se'
