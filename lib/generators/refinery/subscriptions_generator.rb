@@ -3,6 +3,7 @@ module Refinery
 
     def rake_db
       rake "refinery_subscriptions:install:migrations"
+      rake "refinery_settings:install:migrations"
     end
 
     def append_load_seed_data
