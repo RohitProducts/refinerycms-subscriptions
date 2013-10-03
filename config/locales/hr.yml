@@ -3,8 +3,8 @@ en:
     subscriptions:
       config:
         from_name: "%{site_name}"
-      subscriptions:
-        new:
+      shared:
+        subscription:
           send: 'Prijavi se'
   activerecord:
     attributes:
