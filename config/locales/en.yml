@@ -28,6 +28,7 @@ en:
       shared:
         subscription:
           send: 'Subscribe'
+          email: 'Email'
       subscription_mailer:
         notification:
           greeting: Hi there

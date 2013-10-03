@@ -6,6 +6,7 @@ en:
       shared:
         subscription:
           send: 'Prijavi se'
+          email: 'Email'
   activerecord:
     attributes:
       'refinery/subscriptions/subscription':

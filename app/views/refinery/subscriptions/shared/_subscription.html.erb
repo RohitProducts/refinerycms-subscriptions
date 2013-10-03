@@ -1,13 +1,6 @@
 <div class='subscriptions'>
   <%= form_for [refinery, :subscriptions, @subscription] do |f| %>
-
-    <div class="field">
-      <%= f.label :email %>
-      <%= f.email_field :email %>
-    </div>
-
-    <div class="actions">
-      <%= f.submit t('.send') %>
-    </div>
+    <%= f.email_field :email, :placeholder => t('.email') %>
+    <%= f.submit t('.send') %>
   <% end %>
 </div>
