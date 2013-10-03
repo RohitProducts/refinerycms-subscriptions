@@ -25,6 +25,13 @@ en:
           send: 'Subscribe'
         show:
           other: Other Subscriptions
+      subscription_mailer:
+        notification:
+          greeting: Hi there
+          you_received_new_subscription: You just received a new subscription to your newsletter.
+          email: Email
+          closing_line: Kind Regards
+          ps: P.S. All your subscriptions are stored in the "Subscriptions" section of Refinery should you ever want to view it later there.
   activerecord:
     attributes:
       'refinery/subscriptions/subscription':
