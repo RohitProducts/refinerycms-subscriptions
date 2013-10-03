@@ -26,7 +26,8 @@ en:
         show:
           other: Other Subscriptions
       shared:
-        send: 'Subscribe'
+        subscription:
+          send: 'Subscribe'
       subscription_mailer:
         notification:
           greeting: Hi there
