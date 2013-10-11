@@ -1,10 +1,19 @@
-# Subscriptions extension for Refinery CMS.
+# Subscriptions engine for Refinery CMS.
 
-## How to build this extension as a gem
+## About
 
-    cd vendor/extensions/subscriptions
-    gem build refinerycms-subscriptions.gemspec
-    gem install refinerycms-subscriptions.gem
+__Simple Refinery's subscriptions engine allow users to subscribe to newsletter
 
-    # Sign up for a http://rubygems.org/ account and publish the gem
-    gem push refinerycms-subscriptions.gem
+
+## Installation
+
+Include gem into your Gemfile:
+
+    gem "refinerycms-subscriptions", '~> 0.0.1'
+
+Inside your Refinery CMS application's root directory run:
+
+    bundle install
+    rails generate refinery:subscriptions
+    rake db:migrate
+    rake db:seed
