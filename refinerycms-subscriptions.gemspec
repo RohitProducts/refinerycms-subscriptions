@@ -7,9 +7,10 @@ Gem::Specification.new do |s|
   s.description       = 'Ruby on Rails Subscriptions extension for Refinery CMS'
   s.date              = '2013-10-01'
   s.summary           = 'Subscriptions extension for Refinery CMS'
-  s.authors           = ['Refactorit']
+  s.authors           = ['Refactorit', 'Ivan Lučev']
   s.require_paths     = %w(lib)
   s.files             = Dir["{app,config,db,lib}/**/*"] + ["readme.md"]
+  s.homepage          = 'https://github.com/refactorit/refinerycms-subscriptions'
 
   # Runtime dependencies
   s.add_dependency             'refinerycms-core',    '~> 2.0.10'
