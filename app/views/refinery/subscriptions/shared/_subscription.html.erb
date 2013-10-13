@@ -1,7 +1,7 @@
 <div class='subscriptions'>
   <%= form_for [refinery, :subscriptions, @subscription] do |f| %>
-    <%= f.text_field :first_name, :placeholder => t('.first_name') %>
-    <%= f.text_field :last_name, :placeholder => t('.last_name') %>
+    <%= f.text_field :first_name, :placeholder => t('.first_name') %><br />
+    <%= f.text_field :last_name, :placeholder => t('.last_name') %><br />
     <%= f.email_field :email, :placeholder => t('.email') %>
     <%= f.submit t('.send') %>
   <% end %>
