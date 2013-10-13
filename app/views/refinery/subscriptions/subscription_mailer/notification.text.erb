@@ -3,11 +3,11 @@
 <%=raw t('.you_received_new_subscription') %>
 
 <% unless @subscription.first_name.blank? %>
-  <%=raw t('.first_name') %>: <%= @subscription.first_name %>
+<%=raw t('.first_name') %>: <%= @subscription.first_name %>
 <% end %>
 
 <% unless @subscription.last_name.blank? %>
-  <%=raw t('.last_name') %>: <%= @subscription.last_name %>
+<%=raw t('.last_name') %>: <%= @subscription.last_name %>
 <% end %>
 
 <%=raw t('.email') %>: <%= @subscription.email %>
