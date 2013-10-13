@@ -36,6 +36,8 @@ en:
           greeting: Hi there
           you_received_new_subscription: You just received a new subscription to your newsletter.
           email: Email
+          first_name: First name
+          last_name: Last name
           closing_line: Kind Regards
           ps: P.S. All your subscriptions are stored in the "Subscriptions" section of Refinery should you ever want to view it later there.
   activerecord:
