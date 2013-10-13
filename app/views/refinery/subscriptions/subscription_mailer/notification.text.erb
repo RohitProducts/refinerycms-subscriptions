@@ -4,12 +4,12 @@
 
 <% unless @subscription.first_name.blank? %>
 <%=raw t('.first_name') %>: <%= @subscription.first_name %>
-<% end %>
 
+<% end %>
 <% unless @subscription.last_name.blank? %>
 <%=raw t('.last_name') %>: <%= @subscription.last_name %>
-<% end %>
 
+<% end %>
 <%=raw t('.email') %>: <%= @subscription.email %>
 
 <%=raw Refinery::Core.site_name %>
