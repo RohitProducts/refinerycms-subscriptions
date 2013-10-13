@@ -3,7 +3,7 @@ module Refinery
     class Subscription < Refinery::Core::BaseModel
       self.table_name = 'refinery_subscriptions'
 
-      attr_accessible :email, :position
+      attr_accessible :email, :first_name, :last_name, :position
 
       acts_as_indexed :fields => [:email]
 
