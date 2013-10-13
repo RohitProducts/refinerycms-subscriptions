@@ -7,6 +7,8 @@ en:
         subscription:
           send: 'Prijavi se'
           email: 'Email'
+          first_name: 'Ime'
+          last_name: 'Prezime'
   activerecord:
     attributes:
       'refinery/subscriptions/subscription':
