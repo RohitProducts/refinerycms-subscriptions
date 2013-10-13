@@ -29,6 +29,8 @@ en:
         subscription:
           send: 'Subscribe'
           email: 'Email'
+          first_name: 'First name'
+          last_name: 'Last name'
       subscription_mailer:
         notification:
           greeting: Hi there
