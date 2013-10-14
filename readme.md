@@ -17,3 +17,15 @@ Inside your Refinery CMS application's root directory run:
     rails generate refinery:subscriptions
     rake db:migrate
     rake db:seed
+    
+## Customize view
+
+To customize view override subscription form by running
+
+    rake refinery:override view=refinery/subscriptions/shared/_subscription
+
+## Attribution
+
+Inspired by and modeled like RefineryCMS Inquiries engine
+
+https://github.com/refinery/refinerycms-inquiries    
