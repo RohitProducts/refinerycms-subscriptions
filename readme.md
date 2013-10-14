@@ -2,8 +2,15 @@
 
 ## About
 
-__Simple Refinery's subscriptions engine allow users to subscribe to newsletter
+Simple Refinery's subscriptions engine that allow users to subscribe to newsletter.
 
+
+### Features
+
+* Frontend subscription form
+* Email notification to admin
+* *Confirm subscription - TODO*
+* *Export emails to CSV - TODO*
 
 ## Installation
 
@@ -28,4 +35,4 @@ To customize view override subscription form by running
 
 Inspired by and modeled like RefineryCMS Inquiries engine
 
-https://github.com/refinery/refinerycms-inquiries    
+https://github.com/refinery/refinerycms-inquiries
